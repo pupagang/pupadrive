@@ -1,0 +1,25 @@
+[tool.poetry]
+authors = ["Aykut Yilmaz <aykuxt@gmail.com>"]
+description = ""
+name = "pupadrive"
+version = "0.1.0"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+Pyrogram = "^1.2.9"
+TgCrypto = "^1.2.2"
+python-dotenv = "^0.17.1"
+google-api-python-client = "^2.12.0"
+google-auth-httplib2 = "^0.1.0"
+google-auth-oauthlib = "^0.4.4"
+requests = "^2.25.1"
+lxml = "^4.6.3"
+aiohttp = "^3.7.4"
+
+[tool.poetry.dev-dependencies]
+autopep8 = "^1.5.7"
+pytest = "^5.2"
+
+[build-system]
+build-backend = "poetry.core.masonry.api"
+requires = ["poetry-core>=1.0.0"]
